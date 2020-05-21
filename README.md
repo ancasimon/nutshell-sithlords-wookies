@@ -1,9 +1,9 @@
 # Renaissance Faire
 
-[Renaissance Faire]( https://ancarenfaire.web.app/)
+[Renaissance Faire](https://ancarenfaire.web.app/)
 
-## Description
-Calling all knights and dames, Renaissance Faire time is upon us! If you want the most impressive "carouse" in your town, be sure to engage the services of this Renaissance Faire planning business. "Prithee, sit you down and have a laugh!"  
+## Description 
+This project allows the owners of a company that runs Renaissance Fairs across the country to see the status of their fairs. They are able to see what food products, souvenirs, staff, and shows are available at each fair as well as view and analyze the costs associated with each event. They are able to add, edit, and delete information for the fairs they created when they are logged in.
 
 ## Individual Contribution
 My individual role in the project included:
@@ -16,44 +16,52 @@ My individual role in the project included:
 * Figuring out the big function with the Promise that pulled all the different data for an event at the same time. 
 
 ## Background
-Our second and last group project in the Data-Driven Apps stage of our bootcamp program, the Renaissance Faire introduced a whole new twist. Our instructor shuffled the previous group projects among our cohort's teams, assigned each of the teams a whole new project they were unfamiliar with and assigned a second part of the overall project to the new team.  
-This project allows the owners of a company that run Renaissance Fairs across the country to see the status of their fairs. They are able to see what food products, souvenirs, staff and shows are available at each fair. They are able to add, edit and delete information to the page when they are logged in.
-We got to practice our skills with what we at NSS call "smash" functions, that is, functions that pull data from multiple collections simultaneously. I got to work on the big function that makes a Promise to get data from all these different collections at the same time, and was it exciting when I finally figured it out!!
-Both an an individual level and as a team, this project really helped us realize how far we have come in the program. 
+Our second and last group project in the Data-Driven Apps stage of our bootcamp program, the Renaissance Faire introduced a whole new twist. Our instructor shuffled the previous group projects among our cohort's teams, assigned each of the teams a whole new project they were unfamiliar with and assigned a second part of the overall project to the new team. We got to see what real-life coding is like when you inherit someone else' code and have to understand it and build on it. 
 
-We had a new team member join us a few days into the project and immediately all rallied to create a new collection for here so that she can own her own piece of the project and practice the "smash" skills. We all contributed and did full CRUD on the new Animals collection is 1 1/2 days!
+Both an an individual level and as a team, this project really helped us realize how far we have come in the program. We had a new team member join us a few days into the project and immediately all rallied to create a new collection for here so that she can own her own piece of the project and practice the "smash" skills. We all contributed and did full CRUD on the new Animals collection is 1 1/2 days! 
+We got to practice our skills with what we at NSS call "smash" functions, that is, functions that pull data from multiple collections simultaneously. I got to work on the big function that makes a Promise to get data from all these different collections at the same time, nesting all the different Promise calls, and was it exciting when I finally figured it out! We also learned about AmCharts through John's research, who was the primary team member who tackled the graphs feature.
 
-I got better at optimizing my code and learning how to refactor it to make it cleaner and mroe streamlined. An example of this was the function for claculating total costs for a given section on an event (food, staff, etc). 
+I got better at optimizing my code and learning how to refactor it to make it cleaner and more streamlined. An example of this was the function for calculating total costs for a given section on an event (food, staff, etc). It went through a couple of versions as I updated it to make sure the code met the single responsibility principle, to ensure that all data manipulation was done in the data files and the component files just controlled the display of the data returned, and to apply the .reduce() method in the claculation, which at first felt quite elusive and complicated but after a while clicked! 
 
 Project instructions available in the Github group project here: https://github.com/nss-evening-cohort-11/nutshell-sithlords-wookies/issues/51.
 
 ## Screenshots
-Dashboard
-![Dashboard](./screenshots-nautilus/dashboard.png)
+Events Dashboard
+![Events](./screenshots-renfaire/events.png)
 
-Destinations
-![Destinations](./screenshots-nautilus/destinations.png)
+User's Own Events
+![User Events](./screenshots-renfaire/user_events.png)
 
-Destinations for Authenticated User
-![Destinations_User](./screenshots-nautilus/destinations_user.png)
+Single Event Details Page
+![Event Details](./screenshots-renfaire/event_details.png)
 
-Adding a New Destination
-![Destination_Add](./screenshots-nautilus/destination_add.png)
+Graph for Event Costs
+![Event Graph](./screenshots-renfaire/event_graph.png)
 
-Editing a Destination
-![Destination_Edit](./screenshots-nautilus/destination_edit.png)
+Adding a New Food Item 
+![Adding Food](./screenshots-renfaire/event_food_add.png)
+
+Filtering Event Data by Price Range
+![Filter by Price](./screenshots-renfaire/event_filter_price.png)
+
+Filtering Event Data by Module
+![Filter by Module](./screenshots-renfaire/event_filter_module.png)
 
 ## Features
-* All users can see the Dashboard and data collections the Nautilus Explorer tracks on its journey: Crew, Destinations, Environmental Readings, and Species. 
-* Only authenticated users can manipulate the data - add new items and delete or edit existing items in any of the four collections of data. 
-* Users can log in via Google.
-* The webpage is fully branded. 
+* Authenticated users only have access to the new Events Dashboard.
+* Users can modify and delete only events they created.
+* Users can view animals, food, shows, souvenirs, and staff associated with an event.
+* Users can add and delete animals, food, shows, souvenirs, and staff associated only with events they created.
+* Users have access to financial reporting data for each event - the itemized as well as total costs for each set of services (animals, food, etc.) as well as the total costs for an event.
+* Users can see graphs displaying the financial data for an event.
 
 ## Technologies Used
-Axios API, Bootstrap, CSS, ES6 Modules, ESLint, Firebase, FontAwesome, FreeLogoDesign, Github, Google login authentication, HTML5, Javascript, jQuery, JSON, JSONLint, Lucidchart, moment.js, Moqups, Sass, Webpack
+Axios API, Bootstrap, CSS, ES6 Modules, ESLint, Firebase, FontAwesome, Github, Google login authentication, HTML5, Javascript, jQuery, JSON, JSONLint, Lucidchart, Moqups, Sass, Webpack
 
 ## Contributors
 [Zachary Crumpton](https://github.com/ZacCrumpton)
+
+[Sarah Holder](https://github.com/sarahholder)
 
 [John Johnson](https://github.com/John-Ryan-Johnson)
 
@@ -70,5 +78,5 @@ Axios API, Bootstrap, CSS, ES6 Modules, ESLint, Firebase, FontAwesome, FreeLogoD
 
 ## Firebase Deployment
 This project has been deployed with Firebase. 
-You can access it [here](https://ancanautilus.web.app/). 
+You can access it [here](https://ancarenfaire.web.app/). 
 
