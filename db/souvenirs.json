@@ -6,7 +6,7 @@
     "imageUrl": "https://cdn.pixabay.com/photo/2017/08/17/21/29/ocarina-2652942_1280.jpg",
     "price": 20,
     "isAvailable": true,
-    "uid": "du8GTsVCXqWQb5arAKgSxuZVgvf2"
+    "uid": "JYSLprvc6fbCtisqi8VaH9DaBfj1"
   },
   "souvenir2": {
     "type": "Fairy Figure",
@@ -15,7 +15,7 @@
     "imageUrl": "https://cdn.pixabay.com/photo/2017/09/03/06/27/fairy-2709407_1280.jpg",
     "price": 35,
     "isAvailable": true,
-    "uid": "du8GTsVCXqWQb5arAKgSxuZVgvf2"
+    "uid": "JYSLprvc6fbCtisqi8VaH9DaBfj1"
   },
   "souvenir3": {
     "type": "Dragon Birdbath",
@@ -24,7 +24,7 @@
     "imageUrl": "https://cdn.pixabay.com/photo/2019/05/18/19/14/dragons-with-water-bowl-4212336_960_720.jpg",
     "price": 40,
     "isAvailable": true,
-    "uid": "du8GTsVCXqWQb5arAKgSxuZVgvf2"
+    "uid": "JYSLprvc6fbCtisqi8VaH9DaBfj1"
   },
   "souvenir4": {
     "type": "Curved blade",

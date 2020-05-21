@@ -5,7 +5,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1471421298428-1513ab720a8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=932&q=80",
     "price": 3,
     "isAvailable": "Available",
-    "uid": "du8GTsVCXqWQb5arAKgSxuZVgvf2"
+    "uid": "JYSLprvc6fbCtisqi8VaH9DaBfj1"
   },
   "food2": {
     "type": "Lemonade",
@@ -13,7 +13,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1568919722116-90b266c5ccd2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",
     "price": 2,
     "isAvailable": "Available",
-    "uid": "du8GTsVCXqWQb5arAKgSxuZVgvf2"
+    "uid": "JYSLprvc6fbCtisqi8VaH9DaBfj1"
   },
   "food3": {
     "type": "Funnel Cake",
@@ -21,7 +21,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1581618478941-515a55d3fce5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",
     "price": 5,
     "isAvailable": "Available",
-    "uid": "du8GTsVCXqWQb5arAKgSxuZVgvf2"
+    "uid": "JYSLprvc6fbCtisqi8VaH9DaBfj1"
   },
   "food4": {
     "type": "Chocolate Filled Doughnuts",
