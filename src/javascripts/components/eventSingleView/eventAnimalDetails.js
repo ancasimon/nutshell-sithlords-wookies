@@ -83,7 +83,7 @@ const getEventAnimalDetails = (singleEvent) => {
       } else if (`${animalItem.cost}` > 300 && `${animalItem.cost}` < 401) {
         domString += `<tr class="eventAnimalItem from301To400 animalrow" data-id="${animalItem.id}" data-parent="${animalItem.parentEventAnimalId}" data-container="${animalItem.parentEventId}">`;
       } else if (`${animalItem.cost}` > 400 && `${animalItem.cost}` < 501) {
-        domString += `<tr class="eventAnimalItem from501To500 animalrow" data-id="${animalItem.id}" data-parent="${animalItem.parentEventAnimalId}" data-container="${animalItem.parentEventId}">`;
+        domString += `<tr class="eventAnimalItem from401To400 animalrow" data-id="${animalItem.id}" data-parent="${animalItem.parentEventAnimalId}" data-container="${animalItem.parentEventId}">`;
       } else if (`${animalItem.cost}` > 500) {
         domString += `<tr class="eventAnimalItem from501On" data-id="${animalItem.id}" data-parent="${animalItem.parentEventAnimalId}" data-container="${animalItem.parentEventId}">`;
       }

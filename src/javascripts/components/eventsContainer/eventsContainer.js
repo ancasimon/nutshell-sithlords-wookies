@@ -85,7 +85,7 @@ const buildAllEvents = () => {
       domString += '</div>';
       // domString += '<div id="chartdiv"></div>';
       utils.printToDom('events', domString);
-      $('body').on('click', '#viewEventBtn', singleView.viewSingleEventCall);
+      $('body').on('click', '.viewEventBtn', singleView.viewSingleEventCall);
       // Starter code for all events chart //
       // charts.buildChart();
     })
