@@ -55,7 +55,7 @@ Project instructions available in the Github group project here: https://github.
 * Users have access to financial reporting data for each event - the itemized as well as total costs for each set of services (animals, food, etc.) as well as the total costs for an event.
 * Users can see graphs displaying the financial data for an event.
 
-## Tools& Technologies
+## Tools & Technologies
 Axios API, Bootstrap, CSS, ES6 Modules, ESLint, Firebase, FontAwesome, Github, Google login authentication, HTML5, JavaScript, jQuery, JSON, JSONLint, Lucidchart, Moqups, Sass, Webpack
 
 ## Contributors
