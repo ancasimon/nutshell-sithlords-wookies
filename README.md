@@ -1,6 +1,6 @@
 # Renaissance Faire
 
-[Renaissance Faire](https://ancarenfaire.web.app/)
+[Check it  out here!](https://ancarenfaire.web.app/)
 
 ## Description 
 This project allows the owners of a company that runs Renaissance Fairs across the country to see the status of their fairs. They are able to see what food products, souvenirs, staff, and shows are available at each fair as well as view and analyze the costs associated with each event. They are able to add, edit, and delete information for the fairs they created when they are logged in.
@@ -26,25 +26,25 @@ I got better at optimizing my code and learning how to refactor it to make it cl
 Project instructions available in the Github group project here: https://github.com/nss-evening-cohort-11/nutshell-sithlords-wookies/issues/51.
 
 ## Screenshots
-Events Dashboard
+#### Events Dashboard
 ![Events](./screenshots-renfaire/events.png)
 
-User's Own Events
+#### User's Own Events
 ![User Events](./screenshots-renfaire/user_events.png)
 
-Single Event Details Page
+#### Single Event Details Page
 ![Event Details](./screenshots-renfaire/event_details.png)
 
-Graph for Event Costs
+#### Graph for Event Costs
 ![Event Graph](./screenshots-renfaire/event_graph.png)
 
-Adding a New Food Item 
+#### Adding a New Food Item 
 ![Adding Food](./screenshots-renfaire/event_food_add.png)
 
-Filtering Event Data by Price Range
+#### Filtering Event Data by Price Range
 ![Filter by Price](./screenshots-renfaire/event_filter_price.png)
 
-Filtering Event Data by Module
+#### Filtering Event Data by Module
 ![Filter by Module](./screenshots-renfaire/event_filter_module.png)
 
 ## Features
@@ -55,8 +55,8 @@ Filtering Event Data by Module
 * Users have access to financial reporting data for each event - the itemized as well as total costs for each set of services (animals, food, etc.) as well as the total costs for an event.
 * Users can see graphs displaying the financial data for an event.
 
-## Technologies Used
-Axios API, Bootstrap, CSS, ES6 Modules, ESLint, Firebase, FontAwesome, Github, Google login authentication, HTML5, Javascript, jQuery, JSON, JSONLint, Lucidchart, Moqups, Sass, Webpack
+## Tools& Technologies
+Axios API, Bootstrap, CSS, ES6 Modules, ESLint, Firebase, FontAwesome, Github, Google login authentication, HTML5, JavaScript, jQuery, JSON, JSONLint, Lucidchart, Moqups, Sass, Webpack
 
 ## Contributors
 [Zachary Crumpton](https://github.com/ZacCrumpton)
